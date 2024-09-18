@@ -3,5 +3,5 @@ from config.playwright import Playwright
 from config.expectations import Expectations
 
 url = Url()
-playwrigte = Playwright()
+playwright = Playwright()
 expectations = Expectations()
