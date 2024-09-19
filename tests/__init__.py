@@ -1,1 +1,0 @@
-from tests.test_index_page import TestFooter

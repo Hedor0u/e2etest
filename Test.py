@@ -1,3 +1,0 @@
-import pytest
-
-pytest tests/
