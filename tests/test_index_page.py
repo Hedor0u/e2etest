@@ -16,4 +16,6 @@ class TestFooter:
         pages.index_page.complete_order(page)
         result = pages.index_page.check_order_completion(page)
         assert result == 'Thank you for your order!', "Order wasn't placed"
+        if result == 'Thank you for your order!':
+            print('Test complete, order is placed!')
         time.sleep(10)
