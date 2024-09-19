@@ -9,6 +9,8 @@ call env\Scripts\activate
 
 pip install -r requirements.txt
 
+playwright install
+
 pytest tests\test_index_page.py
 
 pause
