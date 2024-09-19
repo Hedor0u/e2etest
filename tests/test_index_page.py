@@ -1,6 +1,6 @@
 import pytest
 import pages
-import time
+#import time
 
 class TestFooter:
 
@@ -18,4 +18,4 @@ class TestFooter:
         assert result == 'Thank you for your order!', "Order wasn't placed"
         if result == 'Thank you for your order!':
             print('Test complete, order is placed!')
-        time.sleep(10)
+        #time.sleep(5)
